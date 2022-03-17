@@ -2,6 +2,7 @@
 @import url('https://kevivui.netlify.app/CSS/utilities.css');
 
 @import url('/homepage.css');
+@import url('/auth/auth.css');
 
 
 body{
@@ -37,6 +38,7 @@ body{
 
     --grey-100:#f3f4f6;
     --blue-link:#2997ff;
+    --text-color-dark:#121C2A
 
 }
 a{
@@ -118,13 +120,13 @@ li{
     justify-content: flex-start;
 }
 .align-center{
-    align-items: center;
+    align-content: center;
 }
 .align-end{
-    align-items: flex-end;
+    align-content: flex-end;
 }
 .align-start{
-    align-items: flex-start;
+    align-content: flex-start;
 }
 .justify-sb{
     justify-content: space-between;
