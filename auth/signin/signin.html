@@ -18,7 +18,6 @@
                 <li class="nav-category-pill"><a href="#">Wishlist</a></li>
                 <li class="nav-category-pill"><a href="#">Cart</a></li>
                 <li class="nav-category-pill"><a href="#">Profile</a></li>
-                <li class="nav-category-pill"><a href="/auth/login/login.html">Login</a></li>
 
             </ul>
         </div>
@@ -33,19 +32,29 @@
             <li class="nav-category-pill"><a href="#">Samsung</a></li>
         </ul>
     </div>
+    <hr>
 
     <main>
-        <div class="hero-container">
-            <div class="img-carousel">
-                <img src="/assets/carousel.jpg"
-                    alt="mobile image" class="img-responsive">
-                <div class="img-overlay-text t2">
-                    Light.<br> Bright.<br>Full of might.<br>
-                    <a href="#" class="image-overlay-link">Shop now..</a>
+        <div class="container-sign-in justify-center align-center">
+            <form class="form-sign-in">
+                <div class="heading-sign-in t3 bold">SIGN IN</div><hr>
+                <div class="sub-heading-sign-in light">Enter your details to create accoount.</div><hr>
+                <div class="input-box-sign-in">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email">
+                    <input type="passwprd" placeholder="Password">
                 </div>
-
-            </div>
-
+                <div class="btn-box-sign-in">
+                    <button class="btn btn-sign-in">SIGN IN</button>
+                </div>
+                <div class="login-text"><a href="/auth/login/login.html">Already have an account?<span class="login-text" >Login here..</span></a></div> <hr>
+                <div class="login-text-other-ways flex-column">
+                    other ways to sign in
+                    <div class="auth-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="google-icon" alt="Google">
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
 
