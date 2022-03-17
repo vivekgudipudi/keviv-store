@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/utilities.css">
+</head>
+
+<body>
+    <nav class="nav-container flex-row align-center justify-sa">
+        <div class="nav-brand t2 bold"><a href="/index.html">Keviv</a></div>
+        <input type="text" class="nav-search" placeholder="Search for products,brands and more">
+        <div class="nav-shop-items">
+            <ul class="nav-categories-list flex-row semi-bold">
+                <li class="nav-category-pill"><a href="#">Wishlist</a></li>
+                <li class="nav-category-pill"><a href="#">Cart</a></li>
+                <li class="nav-category-pill"><a href="#">Profile</a></li>
+                <li class="nav-category-pill"><a href="/auth/login/login.html">Login</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div class="nav-categories-container">
+        <ul class="nav-categories-list flex-row justify-center">
+            <li class="nav-category-pill"><a href="/components/product-listing/product.html">Apple</a></li>
+            <li class="nav-category-pill"><a href="/components/product-listing/product.html">Google</a></li>
+            <li class="nav-category-pill"><a href="/components/product-listing/product.html">Huawei</a></li>
+            <li class="nav-category-pill"><a href="/components/product-listing/product.html">Oneplus</a></li>
+            <li class="nav-category-pill"><a href="/components/product-listing/product.html">Samsung</a></li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="wrapper flex-row justify-center">
+        <aside class="side-bar-container flex-column">
+            <div class="side-bar-heading bold t4">FILTERS</div>
+            <div class="filter-heading filter-heading-top">
+                Price
+            </div>
+            <div class="filter-content">
+                <div class="slider-value-container flex-row justify-sa">
+                    <span class="slider-value">15000</span>
+                    <span class="slider-value">179000</span>
+                </div>
+                <input type="range" min="15000" max="179000" value="50000" class="input-slider">
+            </div>
+            <div class="filter-heading">
+                Category
+            </div>
+            <div class="filter-content">
+                <div class="filter-check-box">
+                    <input type="checkbox" id="">
+                    <label for="apple">Apple</label>
+                </div>
+                <div class="filter-check-box">
+                    <input type="checkbox" id="">
+                    <label for="google">Google</label>
+                </div>
+                <div class="filter-check-box">
+                    <input type="checkbox" id="">
+                    <label for="huawei">Huawei</label>
+                </div>
+                <div class="filter-check-box">
+                    <input type="checkbox" id="">
+                    <label for="oneplus">Oneplus</label>
+                </div>
+                <div class="filter-check-box">
+                    <input type="checkbox" id="">
+                    <label for="samsung">Samsung</label>
+                </div class="filter-check-box">
+            </div>
+            <div class="filter-heading">
+                Rating
+            </div>
+            <div class="filter-content">
+                <div class="filter-radio">
+                    <input type="radio" id="">
+                    <label for="apple">4★ & above</label>
+                </div>
+                <div class="filter-radio">
+                    <input type="radio" id="">
+                    <label for="google">3★ & above</label>
+                </div>
+                <div class="filter-radio">
+                    <input type="radio" id="">
+                    <label for="huawei">2★ & above</label>
+                </div>
+                <div class="filter-radio">
+                    <input type="radio" id="">
+                    <label for="oneplus">1★ & above</label>
+                </div>
+            </div>
+            <div class="clear-button-content">
+                <button class="btn clear-button t4">Clear All</button>
+            </div>
+        </aside>
+        <section class="product-container flex-row justify-center">
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-badge">AD</div>
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-badge">Trending</div>
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assets/card-img.jpg" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Apple</div>
+                    <div class="card-title">Iphone 12 pro (8+512)</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.98700</span>
+                        <span class="card-ecom-price-old">Rs.139900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="btn default-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -59,3 +59,9 @@
 .image-overlay-link:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+    .nav-category-pill{
+        padding:0 var(--xs);
+    }
+  }
