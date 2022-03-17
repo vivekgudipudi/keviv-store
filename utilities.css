@@ -4,6 +4,8 @@
 @import url('/homepage.css');
 @import url('/auth/auth.css');
 @import url('/components/product-listing/product.css');
+@import url('/components/wishlist/wishlist.css');
+@import url('/components/cart/cart.css');
 
 
 body{
